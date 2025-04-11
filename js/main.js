@@ -77,7 +77,7 @@ function handleLogin() {
 
     if (foundUser) {
         alert("Đăng nhập thành công!");
-        window.location.href = "./Home.html";
+        window.location.href = "./index.html";
     } else {
         alert("Email hoặc mật khẩu không đúng!");
     }
